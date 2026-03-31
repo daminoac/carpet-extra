@@ -3,7 +3,9 @@
 
 name: Development Builds
 
-on: [push]
+on: 
+  workflow_dispatch: 
+  push:
 
 jobs:
   Build:
